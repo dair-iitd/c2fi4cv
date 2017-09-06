@@ -1,0 +1,36 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : Access to the path 'c:\users\haroun h\desktop\vmcomms\btp_seg\runmultilabel3\coopcutmultilabel.exe' is denied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CoopCutMultilabel.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\Cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  C:\Users\Haroun H\Desktop\motherload\software\boost_1_55_0\boost/move/detail/config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+CoopCutMultilabel.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+CoopCutMultilabel.cpp(171): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+CoopCutMultilabel.cpp(250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  LiftedCoopCut.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\Cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  C:\Users\Haroun H\Desktop\motherload\software\boost_1_55_0\boost/move/detail/config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+LiftedCoopCut.cpp(78): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(240): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(312): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(324): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(353): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(398): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(414): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(701): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(709): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(1156): warning C4018: '<': signed/unsigned mismatch
+LiftedCoopCut.cpp(1436): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\Cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  C:\Users\Haroun H\Desktop\motherload\software\boost_1_55_0\boost/move/detail/config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+  Generating code
+  All 2188 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  coopcutMultilabel.vcxproj -> C:\Users\Haroun H\Desktop\vmcomms\btp_seg\srcMultilabel2\coopcutMultilabel\..\..\runMultilabel3\coopcutMultilabel2.exe
+  coopcutMultilabel.vcxproj -> ..\..\runMultilabel3\coopcutMultilabel2.pdb (Full PDB)

@@ -1,0 +1,50 @@
+// Section2: normal-lifting
+
+// Subsection1 - initialize
+
+void LiftedCoopCut::color_variables_uniform(FactorGraph& fg) {
+	for(int i=0; i<nodeNumber_; ++i) {
+		fg.variableSignatures[i][0] = 0;
+	}
+}
+
+int LiftedCoopCut::color_unaries_likely(FactorGraph& fg, int nranks) {
+
+}
+
+bool LiftedCoopCut::initialize_colors() {
+	// color variables - same color to all.
+	color_variables_uniform(fg);
+	// color unaries
+	color_unaries_likely(fg, nRanksConsidered);
+	// DO NOT COLOR PAIRWISE.
+	fg.initialized_initial_colors = true;
+	// super slow copy.
+	fg.nowFactorSignatures = fg.factorSignatures;
+	fg.nowVariableSignatures = fg.variableSignatures;
+	return true;
+}
+
+bool LiftedCoopCut::set_groups(FactorGraph& fg) {
+	// Simply go over variables and put them into syms, invsyms
+	// ASSERT: variableSignatures[v][0] is the color of variable v.
+	fg.syms.clear();
+	fg.invsyms.resize(fg.vecVariables.size());
+	std::vector<int> color2group(fg.vecVariables.size(),-1); // at worst, one color for each variable.
+	int color, group;
+	int total_groups=0;
+	for(int v=0; v<fg.vecVariables.size(); ++v) {
+		color = fg.variableSignatures[v][0];
+		assert(color>=0 && color< fg.vecVariables.size());
+		group = color2group[color];
+		if(group==-1) {
+			color2group[color] = total_groups;
+			group = total_groups;
+			total_groups++;
+			fg.syms.push_back(std::vector<int>());
+		}
+		fg.syms[group].push_back(v);
+		fg.invsyms[v] = group;
+	}
+	return true;
+}

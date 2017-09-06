@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  c:\users\haroun h\desktop\motherload\software\boost_1_55_0\boost\move\detail\config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+  LiftedCoopCut.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  c:\users\haroun h\desktop\motherload\software\boost_1_55_0\boost\move\detail\config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(77): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(186): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(256): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(268): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(297): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(341): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(357): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(644): warning C4018: '<': signed/unsigned mismatch
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\liftedcoopcut.cpp(652): warning C4018: '<': signed/unsigned mismatch
+  CoopCutMultilabel.cpp
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\cimg.h(133): warning C4005: '_CRT_SECURE_NO_DEPRECATE': macro redefinition
+  c:\users\haroun h\desktop\motherload\software\boost_1_55_0\boost\move\detail\config_begin.hpp(15): note: see previous definition of '_CRT_SECURE_NO_DEPRECATE'
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\coopcutmultilabel.cpp(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\coopcutmultilabel.cpp(171): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\haroun h\desktop\vmcomms\btp_seg\srcmultilabel2\coopcutmultilabel\coopcutmultilabel.cpp(250): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  Generating Code...
+  coopcutMultilabel.vcxproj -> C:\Users\Haroun H\Desktop\vmcomms\btp_seg\srcMultilabel2\coopcutMultilabel\..\..\runMultilabel2\coopcutMultilabel.exe
+  coopcutMultilabel.vcxproj -> ..\..\runMultilabel2\coopcutMultilabel.pdb (Full PDB)
